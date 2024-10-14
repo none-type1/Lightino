@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front-end development for Lightino - Lighting store web design (Persian)">
+    <meta name="auther" content="none-type1">
+    <title>Lightino</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/jquery-3.7.1.min.js" defer></script>
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <div>
+                <span></span>
+                <!-- ///////////////////////////////////////////// -->
+            </div>
+            <ul>
+                <div>
+                    <svg width="26px" height="26px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.5007 5.48125C12.5807 5.48125 12.6607 5.48125 12.7507 5.49125V2.53125C12.7507 2.12125 12.4107 1.78125 12.0007 1.78125C11.5907 1.78125 11.2507 2.12125 11.2507 2.53125V5.49125C11.3307 5.48125 11.4107 5.48125 11.5007 5.48125C6.8907 5.71125 3.2207 9.51125 3.2207 14.1813V16.1213C3.2207 17.2213 4.1207 18.1213 5.2207 18.1213H18.7807C19.8807 18.1213 20.7807 17.2213 20.7807 16.1213V14.1813C20.7807 9.51125 17.1107 5.71125 12.5007 5.48125Z" fill="#6c7077"></path> <path d="M14.7292 19.1094C15.0592 19.1094 15.2992 19.4194 15.2192 19.7394C14.8392 21.1694 13.5392 22.2194 11.9992 22.2194C10.4592 22.2194 9.15915 21.1694 8.77915 19.7394C8.69915 19.4194 8.93916 19.1094 9.26916 19.1094H14.7292Z" fill="#6c7077"></path> </g></svg>
+                    لایتینو
+                </div>
+                <li><a>خانه</a></li>
+                <li><a>خدمات</a></li>
+                <li><a>درباره ما</a></li>
+                <li><a>تماس با ما</a></li>
+            </ul>
+            <a id="sign-in">
+                ورود / ثبت نام
+                <svg fill="#fff" width="26px" height="26px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#fff" stroke-width="0.00036"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>sign-in-solid</title> <path d="M28,4H12a2,2,0,0,0-2,2v7h8.5L15.12,9.71a1,1,0,0,1,1.41-1.41l5.79,5.79-5.79,5.79a1,1,0,0,1-1.41-1.41L18.5,15H10V30a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V6A2,2,0,0,0,28,4Z" class="clr-i-solid clr-i-solid-path-1"></path><path d="M10,13H4a1,1,0,0,0-1,1,1,1,0,0,0,1,1h6Z" class="clr-i-solid clr-i-solid-path-2"></path> <rect x="0" y="0" width="36" height="36" fill-opacity="0"></rect> </g></svg>
+            </a>
+        </div>
+        <div id="title">
+            <div id="introduction">
+                <h1>
+                    <svg width="26px" height="26px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.5007 5.48125C12.5807 5.48125 12.6607 5.48125 12.7507 5.49125V2.53125C12.7507 2.12125 12.4107 1.78125 12.0007 1.78125C11.5907 1.78125 11.2507 2.12125 11.2507 2.53125V5.49125C11.3307 5.48125 11.4107 5.48125 11.5007 5.48125C6.8907 5.71125 3.2207 9.51125 3.2207 14.1813V16.1213C3.2207 17.2213 4.1207 18.1213 5.2207 18.1213H18.7807C19.8807 18.1213 20.7807 17.2213 20.7807 16.1213V14.1813C20.7807 9.51125 17.1107 5.71125 12.5007 5.48125Z" fill="#ffffff"></path> <path d="M14.7292 19.1094C15.0592 19.1094 15.2992 19.4194 15.2192 19.7394C14.8392 21.1694 13.5392 22.2194 11.9992 22.2194C10.4592 22.2194 9.15915 21.1694 8.77915 19.7394C8.69915 19.4194 8.93916 19.1094 9.26916 19.1094H14.7292Z" fill="#ffffff"></path> </g></svg>
+                    <strong>لایتیــــــــــنو</strong>
+                    , روشنایی ماندگار
+                </h1>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                <div>
+                    <a>
+                        مشاهده کاتالوگ
+                        <svg fill="#000000" width="24px" height="24px" viewBox="0 0 24 24" id="file-2" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M19.71,8.29l-6-6A1,1,0,0,0,13,2H6A2,2,0,0,0,4,4V20a2,2,0,0,0,2,2H18a2,2,0,0,0,2-2V9A1,1,0,0,0,19.71,8.29Z" style="fill: #936f36;"></path><path id="secondary" d="M13,8a1,1,0,0,0,1,1h6a1,1,0,0,0-.28-.71l-6-6A1,1,0,0,0,13,2Z" style="fill: #000000;"></path></g></svg>
+                    </a>
+                    <a>
+                        معرفی لایتینو
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#dfba77"></path> <path d="M15.4137 13.059L10.6935 15.8458C9.93371 16.2944 9 15.7105 9 14.7868V9.21316C9 8.28947 9.93371 7.70561 10.6935 8.15419L15.4137 10.941C16.1954 11.4026 16.1954 12.5974 15.4137 13.059Z" fill="#dfba77"></path> </g></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="charts">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>178,000</span>
+                مشتری سالانه
+            </div>
+            <div class="charts">
+                <div>
+                    <svg class="bace" height="80" width="80" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <circle r="35" cx="40" cy="40" stroke-linecap="round" />
+                    </svg>
+                    <svg class="value" height="80" width="80" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <circle r="35" cx="40" cy="40" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <span>24/7</span>
+                پشتیبانی
+            </div>
+            <div class="charts">
+                <div>
+                    <svg class="bace" height="100" width="120" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <circle r="42" cx="60" cy="40"/>
+                    </svg>
+                    <svg class="value" height="100" width="120" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <circle r="42" cx="60" cy="40"/>
+                    </svg>
+                </div>
+                <span>92%</span>
+                رضایت خریداران
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="categories">
+            <a>
+                <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px" viewBox="0 0 47.313 47.313" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M44.811,16.313v5c0,1.656-1.344,3-3,3c-1.657,0-3-1.344-3-3v-5c0-1.657,1.343-3,3-3 C43.467,13.313,44.811,14.656,44.811,16.313z M34.811,13.313c-1.657,0-3,1.343-3,3v5c0,1.656,1.343,3,3,3c1.656,0,3-1.344,3-3v-5 C37.811,14.656,36.469,13.313,34.811,13.313z M27.811,13.313c-1.657,0-3,1.343-3,3v5c0,1.656,1.343,3,3,3c1.656,0,3-1.344,3-3v-5 C30.811,14.656,29.469,13.313,27.811,13.313z M40.5,12c3.312,0,6-2.687,6-6c0-3.312-2.689-6-6-6H28.124 c-2.219,0-4.152,1.208-5.189,3h-0.122c-7.72,0-14,6.28-14,14v23.313h-4.5c-1.933,0-3.5,1.567-3.5,3.5c0,1.934,1.567,3.5,3.5,3.5h15 c1.933,0,3.5-1.566,3.5-3.5c0-1.933-1.567-3.5-3.5-3.5h-4.5V17c0-4.41,3.589-8,8-8h0.122c1.038,1.792,2.971,3,5.189,3H40.5z"></path> </g> </g></svg>
+                چراغ خیابانی
+                <svg width="22px" height="22px" stroke="#3c3d42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+            <a>
+                <svg fill="#ffffff" height="26px" width="26px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M482.835,257.162h-46.349c-8.102-86.373-77.047-155.319-163.42-163.422V17.067C273.067,7.641,265.425,0,256,0 c-9.425,0-17.067,7.641-17.067,17.067v76.673c-86.373,8.103-155.318,77.049-163.421,163.422H29.165 c-9.425,0-17.067,7.641-17.067,17.067s7.641,17.067,17.067,17.067c11.421,0,448.212,0,453.671,0c9.425,0,17.067-7.641,17.067-17.067 S492.261,257.162,482.835,257.162z"></path> <path d="M256,431.401c-9.425,0-17.067,7.641-17.067,17.067v46.466c0,9.425,7.641,17.067,17.067,17.067 c9.425,0,17.067-7.641,17.067-17.067v-46.466C273.067,439.042,265.425,431.401,256,431.401z"></path> <path d="M120.722,385.368l-32.856,32.857c-6.665,6.665-6.665,17.471,0,24.136c6.664,6.665,17.471,6.666,24.136,0l32.856-32.856 c6.665-6.665,6.665-17.471,0-24.136C138.192,378.703,127.386,378.703,120.722,385.368z"></path> <path d="M391.278,385.368c-6.664-6.665-17.471-6.664-24.136,0c-6.665,6.665-6.665,17.471,0,24.136l32.856,32.856 c6.664,6.665,17.469,6.665,24.136,0c6.665-6.665,6.665-17.471,0-24.136L391.278,385.368z"></path> <path d="M255.992,389.155c44.987,0,84.012-25.983,102.877-63.728H153.115C171.98,363.172,211.005,389.155,255.992,389.155z"></path> </g></svg>
+                چراغ آویز
+                <svg width="22px" height="22px" stroke="#3c3d42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+            <a>
+                <svg fill="#ffffff" height="26px" width="26px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M406.007,203.012L372.616,13.795C371.208,5.817,364.276,0,356.174,0H155.826c-8.102,0-15.034,5.817-16.442,13.795 l-33.391,189.217c-0.858,4.86,0.48,9.852,3.652,13.631c3.172,3.781,7.855,5.965,12.79,5.965h116.87v189.217h-50.087 c-27.618,0-50.087,22.469-50.087,50.087v33.391c0,9.22,7.475,16.696,16.696,16.696h200.348c9.22,0,16.696-7.475,16.696-16.696 v-33.391c0-27.618-22.469-50.087-50.087-50.087h-50.087V222.609h33.391v38.957c0,9.22,7.475,16.696,16.696,16.696 s16.696-7.475,16.696-16.696v-38.957h50.087c4.935,0,9.618-2.184,12.79-5.965C405.528,212.863,406.864,207.872,406.007,203.012z"></path> </g> </g> </g></svg>
+                چراغ دکوراتیو
+                <svg width="22px" height="22px" stroke="#3c3d42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+            <a>
+                <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px" viewBox="0 0 47.002 47.002" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M33.53,14.63l-21.027,5.634c-1.001,0.269-1.593,1.296-1.326,2.295c0.224,0.838,0.983,1.387,1.808,1.387 c0.16,0,0.324-0.02,0.487-0.062l2.95-0.789v2.198h-2.384c-0.578,0-1.052,0.474-1.052,1.053V31.6c0,0.581,0.283,1.435,0.63,1.894 l1.893,2.522c0.347,0.463,0.632,1.315,0.632,1.894v2.103c0,0.579,0.474,1.053,1.051,1.053h1.064 c0.043,0.151,0.105,0.293,0.185,0.412c-0.149,0.228-0.248,0.521-0.248,0.852s0.099,0.625,0.248,0.851 c-0.149,0.227-0.248,0.521-0.248,0.847c0,0.706,0.418,1.275,0.935,1.275h1.625c-0.036,0.135-0.063,0.273-0.063,0.427 c0,0.704,0.421,1.274,0.936,1.274h3.748c0.52,0,0.938-0.57,0.938-1.274c0-0.149-0.03-0.292-0.064-0.427h1.624 c0.518,0,0.938-0.569,0.938-1.275c0-0.33-0.102-0.62-0.25-0.847c0.148-0.226,0.25-0.521,0.25-0.851s-0.102-0.624-0.25-0.852 c0.079-0.119,0.142-0.259,0.185-0.412h1.066c0.577,0,1.051-0.474,1.051-1.053v-2.103c0-0.577,0.285-1.431,0.632-1.894l1.894-2.522 c0.347-0.459,0.63-1.312,0.63-1.894v-5.255c0-0.579-0.475-1.053-1.053-1.053h-2.42c0.008-0.059,0.036-0.109,0.036-0.168v-5.825 L34.5,18.25c1.001-0.271,1.593-1.297,1.326-2.294C35.558,14.955,34.528,14.37,33.53,14.63z M19.545,22.258l7.91-2.119v4.985 c0,0.058,0.026,0.107,0.035,0.168h-7.945V22.258z"></path> <path d="M33.53,8.848l-21.027,5.636c-1.001,0.27-1.593,1.298-1.326,2.295c0.224,0.837,0.983,1.389,1.808,1.389 c0.16,0,0.324-0.021,0.487-0.062l21.029-5.635c0.998-0.269,1.594-1.299,1.322-2.296C35.558,9.174,34.528,8.588,33.53,8.848z"></path> <path d="M11.177,10.997c0.224,0.837,0.983,1.389,1.808,1.389c0.16,0,0.324-0.02,0.487-0.062l21.029-5.635 c0.998-0.269,1.594-1.298,1.322-2.295c-0.267-1.001-1.295-1.588-2.293-1.326L12.503,8.703C11.502,8.97,10.91,10,11.177,10.997z"></path> <path d="M12.984,6.604c0.16,0,0.324-0.021,0.487-0.062l10.677-2.859c1-0.269,1.593-1.297,1.325-2.295 c-0.27-1.001-1.296-1.585-2.296-1.325L12.503,2.92c-1.002,0.269-1.597,1.298-1.326,2.295C11.4,6.051,12.16,6.604,12.984,6.604z"></path> </g> </g> </g></svg>
+                چراغ سقفی
+                <svg width="22px" height="22px" stroke="#3c3d42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+            <a>
+                <svg fill="#ffffff" width="26px" height="26px" viewBox="-5.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>menu</title> <path d="M1.375 9.156h18.063c0.781 0 1.375-0.594 1.375-1.375 0-0.75-0.594-1.344-1.375-1.344h-18.063c-0.781 0-1.375 0.594-1.375 1.344 0 0.781 0.594 1.375 1.375 1.375zM1.375 14.625h18.063c0.781 0 1.375-0.594 1.375-1.375 0-0.75-0.594-1.344-1.375-1.344h-18.063c-0.781 0-1.375 0.594-1.375 1.344 0 0.781 0.594 1.375 1.375 1.375zM1.375 20.094h18.063c0.781 0 1.375-0.594 1.375-1.344 0-0.781-0.594-1.375-1.375-1.375h-18.063c-0.781 0-1.375 0.594-1.375 1.375 0 0.75 0.594 1.344 1.375 1.344zM1.375 25.563h18.063c0.781 0 1.375-0.594 1.375-1.344 0-0.781-0.594-1.375-1.375-1.375h-18.063c-0.781 0-1.375 0.594-1.375 1.375 0 0.75 0.594 1.344 1.375 1.344z"></path> </g></svg>
+                چراغ خطی
+                <svg width="22px" height="22px" stroke="#3c3d42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
+        </section>
+        <div id="top-sale-break" class="break">
+            <h2>پرفروش ترین های لایتینو</h2>
+            <span></span>
+            <div>
+                <svg class="pruv" width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z"></path> </g></svg>
+                <svg class="next" width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z"></path> </g></svg>
+            </div>
+        </div>
+        <div class="item-slider-cover">
+            <section id="top-sale" class="item-slider">
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="multicolor">
+                            <span></span>
+                            چند رنگ
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="old-price">
+                                500,000 تومان
+                            </div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                    <span class="offer">20%</span>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="old-price">
+                                500,000 تومان
+                            </div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                    <span class="offer">20%</span>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="multicolor">
+                            <span></span>
+                            چند رنگ
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="old-price">
+                                500,000 تومان
+                            </div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                    <span class="offer">20%</span>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <span class="mini-break"></span>
+        <section id="item-introduction">
+            <div>
+                <div>
+                    <h3>معرفی چراغ پایه دار 90 وات مدل تاریو</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+                <span>
+                    اطلاعات بیشتر
+                    <svg width="22px" height="22px" stroke="#dfba77" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </span>
+            </div>
+            <div>
+                <div>
+                    <h3>معرفی چراغ آویز مدل ماریو</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+                <span>
+                    اطلاعات بیشتر
+                    <svg width="22px" height="22px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </span>
+            </div>
+        </section>
+        <div id="top-new-break" class="break">
+            <h2>جدید ترین های لایتینو</h2>
+            <span></span>
+            <div>
+                <svg class="pruv" width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z"></path> </g></svg>
+                <svg class="next" width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z"></path> </g></svg>
+            </div>
+        </div>
+        <div class="item-slider-cover">
+            <section id="top-new" class="item-slider">
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="old-price">
+                                500,000 تومان
+                            </div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                    <span class="offer">20%</span>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="multicolor">
+                            <span></span>
+                            چند رنگ
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>  
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="old-price">
+                                500,000 تومان
+                            </div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                    <span class="offer">20%</span>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="multicolor">
+                            <span></span>
+                            چند رنگ
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="yellow">
+                            <span></span>
+                            آفتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/Lights/1.png" alt="عکس محصول">
+                    <h3>چراغ آویز 100 وات مدل آریو</h3>
+                    <div class="color">
+                        <div class="white">
+                            <span></span>
+                            مهتابی
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <div class="old-price">
+                                500,000 تومان
+                            </div>
+                            <div class="new-price">
+                                <span>381,000</span> تومان
+                            </div>
+                        </div>
+                        <a>خرید</a>
+                    </div>
+                    <span class="offer">20%</span>
+                </div>            
+            </section>
+        </div>
+        <div id="feedback">
+            <svg width="58px" height="58px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>call [#192]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-103.000000, -7321.000000)" fill="#34353a"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M61.7302966,7173.99596 C61.2672966,7175.40296 59.4532966,7176.10496 58.1572966,7175.98796 C56.3872966,7175.82796 54.4612966,7174.88896 52.9992966,7173.85496 C50.8502966,7172.33496 48.8372966,7169.98396 47.6642966,7167.48896 C46.8352966,7165.72596 46.6492966,7163.55796 47.8822966,7161.95096 C48.3382966,7161.35696 48.8312966,7161.03996 49.5722966,7161.00296 C50.6002966,7160.95296 50.7442966,7161.54096 51.0972966,7162.45696 C51.3602966,7163.14196 51.7112966,7163.84096 51.9072966,7164.55096 C52.2742966,7165.87596 50.9912966,7165.93096 50.8292966,7167.01396 C50.7282966,7167.69696 51.5562966,7168.61296 51.9302966,7169.09996 C52.6632966,7170.05396 53.5442966,7170.87696 54.5382966,7171.50296 C55.1072966,7171.86196 56.0262966,7172.50896 56.6782966,7172.15196 C57.6822966,7171.60196 57.5872966,7169.90896 58.9912966,7170.48196 C59.7182966,7170.77796 60.4222966,7171.20496 61.1162966,7171.57896 C62.1892966,7172.15596 62.1392966,7172.75396 61.7302966,7173.99596 C61.4242966,7174.92396 62.0362966,7173.06796 61.7302966,7173.99596" id="call-[#192]"> </path> </g> </g> </g> </g></svg>
+            <span>سوالی دارید؟</span>
+            با <a href="tel:0210000000">0219876543</a> تماس بگیرید.
+        </div>
+        <div id="news-and-gallery">
+            <div class="news">
+                <h2>
+                    <svg width="24px" height="24px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#dfba77"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>newspaper</title> <g id="Layer_2" data-name="Layer 2"> <g id="invisible_box" data-name="invisible box"> <rect width="48" height="48" fill="none"></rect> </g> <g id="icons_Q2" data-name="icons Q2"> <g> <g> <rect x="30" y="14" width="8" height="4" rx="2" ry="2"></rect> <rect x="30" y="22" width="8" height="4" rx="2" ry="2"></rect> <rect x="18" y="30" width="20" height="4" rx="2" ry="2"></rect> <rect x="18" y="14" width="8" height="12" rx="1.8" ry="1.8"></rect> </g> <path d="M44,5H12a2,2,0,0,0-2,2V17H4a2,2,0,0,0-2,2H2V37a6,6,0,0,0,6,6H40a6,6,0,0,0,6-6V7A2,2,0,0,0,44,5ZM6,37V21h4V37a2,2,0,0,1-4,0Zm36,0a2,2,0,0,1-2,2H13.7a6.4,6.4,0,0,0,.3-2V9H42Z"></path> </g> </g> </g> </g></svg>
+                    اخبار لایتینو
+                </h2>
+                <section>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    <a>
+                        <span>1402/05/23</span>
+                        لایتینو حامی نمایشگاه برق تهران.
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                </section>
+            </div>
+            <div class="gallery">
+                <h2>
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 13.4375C22 17.2087 22 19.0944 20.8284 20.2659C19.6569 21.4375 17.7712 21.4375 14 21.4375H10C6.22876 21.4375 4.34315 21.4375 3.17157 20.2659C2 19.0944 2 17.2087 2 13.4375C2 9.66626 2 7.78065 3.17157 6.60907C4.34315 5.4375 6.22876 5.4375 10 5.4375H14C17.7712 5.4375 19.6569 5.4375 20.8284 6.60907C21.4921 7.27271 21.7798 8.16545 21.9045 9.50024" stroke="#dfba77" stroke-width="1.8960000000000001" stroke-linecap="round"></path> <path d="M3.98779 6C4.10022 5.06898 4.33494 4.42559 4.82498 3.93726C5.76553 3 7.27932 3 10.3069 3H13.5181C16.5457 3 18.0595 3 19 3.93726C19.4901 4.42559 19.7248 5.06898 19.8372 6" stroke="#dfba77" stroke-width="1.8960000000000001"></path> <circle cx="17.5" cy="9.9375" r="1.5" stroke="#dfba77" stroke-width="1.8960000000000001"></circle> <path d="M2 13.9376L3.75159 12.405C4.66286 11.6077 6.03628 11.6534 6.89249 12.5096L11.1822 16.7993C11.8694 17.4866 12.9512 17.5803 13.7464 17.0214L14.0446 16.8119C15.1888 16.0077 16.7369 16.1009 17.7765 17.0365L21 19.9376" stroke="#dfba77" stroke-width="1.8960000000000001" stroke-linecap="round"></path> </g></svg>
+                    گالری تصاویر لایتینو
+                </h2>
+                <div></div>
+                <span>
+                    <svg class="pruv" width="56px" height="56px" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z"></path> </g></svg>
+                    <svg class="next" width="56px" height="56px" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z"></path> </g></svg>
+                </span>
+            </div>
+        </div>
+        <span class="mini-break"></span>
+    </main>
+    <footer>
+        <div id="notification">
+            <span>برای مطلع شدن از تخفیفات ایمیل خود را وارد کنید.</span>
+            <form>
+                <input type="text" placeholder="ایمیل">
+                <input type="submit" value="ارسال">
+            </form>
+        </div>
+        <div id="main-footer">
+            <div id="footer-description">
+                <div>
+                    <h2>
+                        <svg width="26px" height="26px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.5007 5.48125C12.5807 5.48125 12.6607 5.48125 12.7507 5.49125V2.53125C12.7507 2.12125 12.4107 1.78125 12.0007 1.78125C11.5907 1.78125 11.2507 2.12125 11.2507 2.53125V5.49125C11.3307 5.48125 11.4107 5.48125 11.5007 5.48125C6.8907 5.71125 3.2207 9.51125 3.2207 14.1813V16.1213C3.2207 17.2213 4.1207 18.1213 5.2207 18.1213H18.7807C19.8807 18.1213 20.7807 17.2213 20.7807 16.1213V14.1813C20.7807 9.51125 17.1107 5.71125 12.5007 5.48125Z" fill="#dfba77"></path> <path d="M14.7292 19.1094C15.0592 19.1094 15.2992 19.4194 15.2192 19.7394C14.8392 21.1694 13.5392 22.2194 11.9992 22.2194C10.4592 22.2194 9.15915 21.1694 8.77915 19.7394C8.69915 19.4194 8.93916 19.1094 9.26916 19.1094H14.7292Z" fill="#dfba77"></path> </g></svg>
+                       لایتیــــــــــــنو
+                    </h2>
+                    <div>
+                        <a><svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z" fill="#fff"></path> </g></svg></a>
+                        <a><svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>whatsapp [#128]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7599.000000)" fill="#fff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M259.821,7453.12124 C259.58,7453.80344 258.622,7454.36761 257.858,7454.53266 C257.335,7454.64369 256.653,7454.73172 254.355,7453.77943 C251.774,7452.71011 248.19,7448.90097 248.19,7446.36621 C248.19,7445.07582 248.934,7443.57337 250.235,7443.57337 C250.861,7443.57337 250.999,7443.58538 251.205,7444.07952 C251.446,7444.6617 252.034,7446.09613 252.104,7446.24317 C252.393,7446.84635 251.81,7447.19946 251.387,7447.72462 C251.252,7447.88266 251.099,7448.05372 251.27,7448.3478 C251.44,7448.63589 252.028,7449.59418 252.892,7450.36341 C254.008,7451.35771 254.913,7451.6748 255.237,7451.80984 C255.478,7451.90987 255.766,7451.88687 255.942,7451.69881 C256.165,7451.45774 256.442,7451.05762 256.724,7450.6635 C256.923,7450.38141 257.176,7450.3464 257.441,7450.44643 C257.62,7450.50845 259.895,7451.56477 259.991,7451.73382 C260.062,7451.85686 260.062,7452.43903 259.821,7453.12124 M254.002,7439 L253.997,7439 L253.997,7439 C248.484,7439 244,7443.48535 244,7449 C244,7451.18666 244.705,7453.21526 245.904,7454.86076 L244.658,7458.57687 L248.501,7457.3485 C250.082,7458.39482 251.969,7459 254.002,7459 C259.515,7459 264,7454.51465 264,7449 C264,7443.48535 259.515,7439 254.002,7439" id="whatsapp-[#128]"> </path> </g> </g> </g> </g></svg></a>
+                        <a><svg viewBox="0 0 24 24" id="meteor-icon-kit__solid-instagram" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.9962 0.0078125C8.73824 0.0078125 8.32971 0.021622 7.05019 0.080003C5.77333 0.138241 4.90129 0.341051 4.13824 0.637622C3.34938 0.944146 2.68038 1.35434 2.01343 2.02124C1.34652 2.68819 0.936333 3.35719 0.629809 4.14605C0.333238 4.9091 0.130429 5.78115 0.0721905 7.058C0.0138095 8.33753 0 8.74605 0 12.0041C0 15.262 0.0138095 15.6705 0.0721905 16.9501C0.130429 18.2269 0.333238 19.099 0.629809 19.862C0.936333 20.6509 1.34652 21.3199 2.01343 21.9868C2.68038 22.6537 3.34938 23.0639 4.13824 23.3705C4.90129 23.667 5.77333 23.8698 7.05019 23.9281C8.32971 23.9864 8.73824 24.0002 11.9962 24.0002C15.2542 24.0002 15.6627 23.9864 16.9422 23.9281C18.2191 23.8698 19.0911 23.667 19.8542 23.3705C20.643 23.0639 21.312 22.6537 21.979 21.9868C22.6459 21.3199 23.0561 20.6509 23.3627 19.862C23.6592 19.099 23.862 18.2269 23.9202 16.9501C23.9786 15.6705 23.9924 15.262 23.9924 12.0041C23.9924 8.74605 23.9786 8.33753 23.9202 7.058C23.862 5.78115 23.6592 4.9091 23.3627 4.14605C23.0561 3.35719 22.6459 2.68819 21.979 2.02124C21.312 1.35434 20.643 0.944146 19.8542 0.637622C19.0911 0.341051 18.2191 0.138241 16.9422 0.080003C15.6627 0.021622 15.2542 0.0078125 11.9962 0.0078125ZM7.99748 12.0041C7.99748 14.2125 9.78776 16.0028 11.9962 16.0028C14.2047 16.0028 15.995 14.2125 15.995 12.0041C15.995 9.79557 14.2047 8.00529 11.9962 8.00529C9.78776 8.00529 7.99748 9.79557 7.99748 12.0041ZM5.836 12.0041C5.836 8.60181 8.594 5.84381 11.9962 5.84381C15.3984 5.84381 18.1564 8.60181 18.1564 12.0041C18.1564 15.4062 15.3984 18.1642 11.9962 18.1642C8.594 18.1642 5.836 15.4062 5.836 12.0041ZM18.3998 7.03996C19.1949 7.03996 19.8394 6.39548 19.8394 5.60043C19.8394 4.80538 19.1949 4.16086 18.3998 4.16086C17.6048 4.16086 16.9603 4.80538 16.9603 5.60043C16.9603 6.39548 17.6048 7.03996 18.3998 7.03996Z" fill="#fff"></path></g></svg></a>
+                        <a><svg viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>twitter [#154]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="#dedede"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]"> </path> </g> </g> </g> </g></svg></a>
+                    </div>
+                </div>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+            </div>
+            <ul>
+                <h2>بخش های سایت</h2>
+                <li><a>صفحه اصلی</a></li>
+                <li><a>درباره ما</a></li>
+                <li><a>دسته بندی</a></li>
+                <li><a>درباره ما</a></li>
+                <li><a>تماس با ما</a></li>
+            </ul>
+            <ul>
+                <h2>بخش های سایت</h2> 
+                <li><a>صفحه اصلی</a></li>
+                <li><a>درباره ما</a></li>
+                <li><a>دسته بندی</a></li>
+                <li><a>درباره ما</a></li>
+                <li><a>تماس با ما</a></li>
+            </ul>
+            <div id="contact-us">
+                <div>
+                    <svg width="20px" height="20px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>call [#192]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-103.000000, -7321.000000)" fill="#dfba77"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M61.7302966,7173.99596 C61.2672966,7175.40296 59.4532966,7176.10496 58.1572966,7175.98796 C56.3872966,7175.82796 54.4612966,7174.88896 52.9992966,7173.85496 C50.8502966,7172.33496 48.8372966,7169.98396 47.6642966,7167.48896 C46.8352966,7165.72596 46.6492966,7163.55796 47.8822966,7161.95096 C48.3382966,7161.35696 48.8312966,7161.03996 49.5722966,7161.00296 C50.6002966,7160.95296 50.7442966,7161.54096 51.0972966,7162.45696 C51.3602966,7163.14196 51.7112966,7163.84096 51.9072966,7164.55096 C52.2742966,7165.87596 50.9912966,7165.93096 50.8292966,7167.01396 C50.7282966,7167.69696 51.5562966,7168.61296 51.9302966,7169.09996 C52.6632966,7170.05396 53.5442966,7170.87696 54.5382966,7171.50296 C55.1072966,7171.86196 56.0262966,7172.50896 56.6782966,7172.15196 C57.6822966,7171.60196 57.5872966,7169.90896 58.9912966,7170.48196 C59.7182966,7170.77796 60.4222966,7171.20496 61.1162966,7171.57896 C62.1892966,7172.15596 62.1392966,7172.75396 61.7302966,7173.99596 C61.4242966,7174.92396 62.0362966,7173.06796 61.7302966,7173.99596" id="call-[#192]"> </path> </g> </g> </g> </g></svg>
+                    9898-021-12345678
+                </div>
+                <div>
+                    <svg fill="#dfba77" width="22px" height="22px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" stroke="#dfba77" stroke-width="0.00512"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>ionicons-v5-o</title><path d="M424,80H88a56.06,56.06,0,0,0-56,56V376a56.06,56.06,0,0,0,56,56H424a56.06,56.06,0,0,0,56-56V136A56.06,56.06,0,0,0,424,80Zm-14.18,92.63-144,112a16,16,0,0,1-19.64,0l-144-112a16,16,0,1,1,19.64-25.26L256,251.73,390.18,147.37a16,16,0,0,1,19.64,25.26Z"></path></g></svg>
+                    Lightino@gmail.com
+                </div>
+                <div>
+                    <svg width="28px" height="28px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="m 8 0 c -3.3125 0 -6 2.6875 -6 6 c 0.007812 0.710938 0.136719 1.414062 0.386719 2.078125 l -0.015625 -0.003906 c 0.636718 1.988281 3.78125 5.082031 5.625 6.929687 h 0.003906 v -0.003906 c 1.507812 -1.507812 3.878906 -3.925781 5.046875 -5.753906 c 0.261719 -0.414063 0.46875 -0.808594 0.585937 -1.171875 l -0.019531 0.003906 c 0.25 -0.664063 0.382813 -1.367187 0.386719 -2.078125 c 0 -3.3125 -2.683594 -6 -6 -6 z m 0 3.691406 c 1.273438 0 2.308594 1.035156 2.308594 2.308594 s -1.035156 2.308594 -2.308594 2.308594 c -1.273438 -0.003906 -2.304688 -1.035156 -2.304688 -2.308594 c -0.003906 -1.273438 1.03125 -2.304688 2.304688 -2.308594 z m 0 0" fill="#dfba77"></path> </g></svg>
+                    تهران, خیابان اول, کیدان دوم, کوچه سوم, پلاک 4
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="copyright">
+            <svg fill="#8d929a" width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"></path><path d="M11 6h2v8h-2zm0 10h2v2h-2z"></path></g></svg>
+            تمام حقوق کحفوظ و متعلق به <span>لایتیـــــــــــــــنو</span> میباشد.
+        </div>
+    </footer>
+</body>
+</html>
